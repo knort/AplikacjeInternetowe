@@ -1,0 +1,277 @@
+/*------------------------------------------------------------------------------
+Icons
+------------------------------------------------------------------------------*/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]::before
+{
+  font-family: 'FontAwesome', sans-serif;
+  margin-right: 10px;
+}
+/*------------------------------------------------------------------------------
+Body
+------------------------------------------------------------------------------*/
+body
+{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+/*------------------------------------------------------------------------------
+Hyperlinks
+------------------------------------------------------------------------------*/
+a
+{
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover
+{
+  transition-duration: 0.3s;
+}
+
+button
+{
+  cursor: pointer;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+.container
+{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.clearfix
+{
+  clear: both;
+}
+/*------------------------------------------------------------------------------
+MESSAGES
+------------------------------------------------------------------------------*/
+.message
+{
+  display: block;
+  box-sizing: border-box;
+  padding: 35px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+.message-error
+{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.message-success
+{
+ color: #3c763d;
+ background-color: #dff0d8;
+ border-color: #d6e9c6;
+}
+
+.message-info
+{
+  background-color: #d9edf7;
+  border-color: #bcdff1;
+  color: #31708f;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#top-panel
+{
+  background-color: #202020;
+  color: #fff;
+  padding: 15px 0;
+}
+
+#top-panel a
+{
+  float: left;
+  display: block;
+  width: calc(100%/6);
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#top-panel a:hover{
+  background-color: #f90;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#main
+{
+  padding: 50px 0;
+}
+
+#main h1
+{
+  font-weight: normal;
+  margin: 0 0 30px 0;
+  text-align: center;
+  position: relative;
+}
+
+#main h1::after
+{
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto 0px auto 30px;
+  width: 76px;
+  height: 1px;
+  background-color: #c0a46d;
+  right: 70%;
+}
+
+#main h1::before
+{
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto 30px auto 0px;
+  width: 76px;
+  height: 1px;
+  background-color: #c0a46d;
+  left: 70%;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+form
+{
+  margin-bottom: 35px;
+}
+
+.form-label
+{
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.label-description
+{
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+.label-input
+{
+  float: left;
+  width: 50%;
+}
+
+.label-input input,
+.label-input select
+{
+  border: 1px solid #444;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.label-input a
+{
+  display: block;
+  padding: 10px 0;
+}
+
+.submit-button
+{
+  float: right;
+  display: block;
+  background-color: #c0a46d;
+  color: #fff;
+  border: 0;
+  padding: 15px 15px;
+  font-family: inherit;
+  font-size: inherit
+}
+
+.button
+{
+  display: inline-block;
+  margin-bottom: 35px;
+  background-color: #c0a46d;
+  color: #fff;
+  border: 0;
+  padding: 10px 25px;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+td, th
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+
+th
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #c0a46d;
+  color: white;
+  font-weight: normal;
+}
+
+.stat-box
+{
+  float: left;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 5% 5%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.stat-box span
+{
+  font-size: 3em;
+  padding: 10px 0;
+}
+
+.stat-box h2
+{
+  margin: 0;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#footer
+{
+  padding: 15px 0;
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}

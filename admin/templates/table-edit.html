@@ -1,0 +1,34 @@
+<h1>Edytuj stolik</h1>
+
+<form method="post" action="">
+
+  <div class="form-label">
+    <div class="message message-info">
+    Zmiana numeru stolika automatycznie wpłynie również na złożone rezerwacje
+    </div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Numer stolika
+      </div>
+    <div class="label-input">
+      <input type="number" required name="table_number" value="{table_number}"/>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Liczba miejsc
+    </div>
+    <div class="label-input">
+      <input type="number" required name="table_count" value="{table_count}"/>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <button name="table-edit-submit" class="submit-button" type="submit">Zapisz</button>
+
+  <div class="clearfix"></div>
+</form>

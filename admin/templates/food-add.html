@@ -1,0 +1,57 @@
+<h1>Dodaj danie</h1>
+
+<form method="post" action="">
+  <div class="form-label">
+    <div class="label-description">
+      Nazwa dania (PL)
+      </div>
+    <div class="label-input">
+      <input type="text" required name="pl_name" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Nazwa dania (ENG)
+    </div>
+    <div class="label-input">
+      <input type="text" required name="eng_name" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Opis dania (PL)
+    </div>
+    <div class="label-input">
+      <input type="text" required name="pl_desc" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Opis dania (ENG)
+    </div>
+    <div class="label-input">
+      <input type="text" required name="eng_desc" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Cena brutto (PLN)
+    </div>
+    <div class="label-input">
+      <input type="number" step="0.01" required name="price" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <button name="food-add-submit" class="submit-button" type="submit">Dodaj danie</button>
+
+  <div class="clearfix"></div>
+</form>

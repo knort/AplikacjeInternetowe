@@ -1,0 +1,462 @@
+/*------------------------------------------------------------------------------
+Icons
+------------------------------------------------------------------------------*/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]::before
+{
+  font-family: 'FontAwesome', sans-serif;
+  margin-right: 10px;
+}
+/*------------------------------------------------------------------------------
+Body
+------------------------------------------------------------------------------*/
+body
+{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+/*------------------------------------------------------------------------------
+Hyperlinks
+------------------------------------------------------------------------------*/
+a
+{
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover
+{
+  transition-duration: 0.3s;
+}
+
+button
+{
+  cursor: pointer;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+.container
+{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.clearfix
+{
+  clear: both;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#toolbar-lang
+{
+  text-align: right;
+  padding: 10px 0;
+  font-size: 0.8em;
+  border-bottom: 1px solid #eee;
+}
+
+#toolbar-lang img
+{
+  height: 20px;
+}
+
+#toolbar-lang span{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#toolbar-lang a
+{
+  float: right;
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#toolbar-main
+{
+
+}
+
+#main-nav
+{
+
+}
+
+#main-nav a
+{
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 25px 0;
+  text-align: center;
+  border-left: 1px solid #eee;
+}
+
+#main-nav a:hover
+{
+  background-color: #c6a86e;
+  color: #fff;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#intro
+{
+  height: 400px;
+  background-image: url('../img/intro.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+}
+
+#intro h1
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  line-height: 400px;
+  font-size: 3em;
+  color: #eee;
+  text-shadow: 1px 1px 1px #000;
+}
+/*------------------------------------------------------------------------------
+DESCRIPTION HERE
+------------------------------------------------------------------------------*/
+#main
+{
+  padding: 50px 0;
+}
+
+#main h1
+{
+  font-weight: normal;
+  margin: 0 0 30px 0;
+  text-align: center;
+  position: relative;
+}
+
+#main h1::after
+{
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto 0px auto 30px;
+  width: 76px;
+  height: 1px;
+  background-color: #c0a46d;
+  right: 70%;
+}
+
+#main h1::before
+{
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto 30px auto 0px;
+  width: 76px;
+  height: 1px;
+  background-color: #c0a46d;
+  left: 70%;
+}
+
+#main p
+{
+  line-height: 300%;
+  margin: 0 0 25px 0;
+}
+
+.intro
+{
+  font-size: 1.3em;
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#google-map iframe
+{
+  height: 450px;
+  width: 100%;
+}
+/*------------------------------------------------------------------------------
+MENU
+------------------------------------------------------------------------------*/
+#toolbar-menu,
+#toolbar-account
+{
+  float: left;
+  width: 25%;
+}
+
+#toolbar-menu button,
+#toolbar-account a
+{
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c0a46d;
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: inherit;
+  cursor: pointer;
+}
+
+.menu-box,
+#profile-content
+{
+  float: right;
+  width: 65%;
+  margin-bottom: 5%;
+}
+
+#profile-content table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#profile-content td
+{
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.menu-box h2
+{
+  background-color: #c0a46d;
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.menu-list
+{
+
+}
+
+.menu-item
+{
+  border-bottom: 2px dotted #eee;
+  padding: 10px 0;
+  font-weight:  bold;
+}
+
+.menu-item p
+{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.price
+{
+  font-size: 0.8em;
+  float: right;
+  margin-left: 15px;
+  display: block;
+}
+/*------------------------------------------------------------------------------
+BOOK
+------------------------------------------------------------------------------*/
+#form-book
+{
+  margin-bottom: 35px;
+}
+
+.form-label
+{
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.label-description
+{
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+
+.label-input
+{
+  float: left;
+  width: 50%;
+}
+
+.label-input input,
+.label-input select
+{
+  border: 1px solid #444;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.label-input a
+{
+  display: block;
+  padding: 10px 0;
+}
+
+.submit-button
+{
+  float: right;
+  display: block;
+  background-color: #c0a46d;
+  color: #fff;
+  border: 0;
+  padding: 15px 15px;
+  font-family: inherit;
+  font-size: inherit
+}
+
+#book-history
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#book-history td, th
+{
+  border: 1px solid #eee;
+  text-align: left;
+  padding: 8px;
+}
+
+#book-history th
+{
+  background-color: #c0a46d;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+
+#book-history tr:nth-child(odd)
+{
+  background-color: #eee;
+}
+
+#no-data-row
+{
+  text-align: center !important;
+  padding: 25px 0 !important;
+}
+/*------------------------------------------------------------------------------
+MESSAGES
+------------------------------------------------------------------------------*/
+.message
+{
+  display: block;
+  box-sizing: border-box;
+  padding: 35px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+.message-error
+{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.message-success
+{
+color: #3c763d;
+ background-color: #dff0d8;
+ border-color: #d6e9c6;
+}
+
+.message-info
+{
+  background-color: #d9edf7;
+  border-color: #bcdff1;
+  color: #31708f;
+}
+/*------------------------------------------------------------------------------
+POP UP
+------------------------------------------------------------------------------*/
+.pop-up
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  padding: 35px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.pop-up h3
+{
+  margin: 0 0 25px 0;
+  font-weight: normal;
+  font-size: 1.6em;
+}
+
+.pop-up h3 button
+{
+  float: right;
+  background-color: #fff;
+  border: 0;
+  font-size: 0.8em;
+}
+
+.pop-up h3 button[class*="fontawesome-"]::before
+{
+  margin-right: 0 !important;
+}
+
+.pop-up span
+{
+  display: block;
+}
+
+.pop-up a
+{
+  font-weight: bold;
+}
+/*------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------*/
+#footer
+{
+  padding: 15px 0;
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}

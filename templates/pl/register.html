@@ -1,0 +1,67 @@
+<h1>Rejestracja</h1>
+
+<form id="form-book" method="post" action="">
+  <div class="form-label">
+    <div class="label-description">
+      Imię
+      </div>
+    <div class="label-input">
+      <input type="text" name="name" required />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Nazwisko
+      </div>
+    <div class="label-input">
+      <input type="text" name="lastname" required  />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Telefon
+      </div>
+    <div class="label-input">
+      <input type="text" name="phone" required />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Adres email
+      </div>
+    <div class="label-input">
+      <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Hasło (Min. 6 znaków)
+    </div>
+    <div class="label-input">
+      <input type="password" name="password" required pattern=".{6,}" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Powtórz hasło
+    </div>
+    <div class="label-input">
+      <input type="password" name="r_password" required pattern=".{6,}" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <button name="register-submit" type="submit" class="submit-button">Załóż konto</button>
+
+  <div class="clearfix"></div>
+</form>

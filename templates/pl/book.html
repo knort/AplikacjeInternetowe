@@ -1,0 +1,67 @@
+<h1>Rezerwacja</h1>
+
+<form id="form-book" method="post" action="">
+  <div class="form-label">
+    <div class="label-description">
+      Wybierdz dzień rezerwacji
+      </div>
+    <div class="label-input">
+      <input name="date" type="date" required />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Godzina rozpoczęcia
+    </div>
+    <div class="label-input">
+      <input name="start" type="time" required />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Godzina zakończenia
+    </div>
+    <div class="label-input">
+      <input name="end" type="time" required />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="form-label">
+    <div class="label-description">
+      Wybierz stolik
+    </div>
+    <div class="label-input">
+      <select name="table" required>
+        <option value="0" disabled selected>-</option>
+        {table_list}
+      </select>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <button name="book-submit" class="submit-button" type="submit">Złóż rezerwacje</button>
+
+  <div class="clearfix"></div>
+</form>
+
+<!--
+<h1>Historia rezerwacji</h1>
+
+<table id="book-history">
+  <tr>
+    <th>Numer rezerwacji</th>
+    <th>Data rezerwacji</th>
+    <th>Numer stolika</th>
+    <th>Status rezerwacji</th>
+    <th>Akcja</th>
+  </tr>
+  <tr>
+    <td id="no-data-row" colspan="6">Brak dancyh do wyświetlenia</td>
+  </tr>
+</table>
+-->

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <!-- RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!-- JQUERY -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/admin.js"></script>
+  </head>
+  <body>
+    <div id="main" class="container">
+      <h1>Logowanie</h1>
+
+      <form id="form-book" method="post" action="">
+        <div class="form-label">
+          <div class="label-description">
+            Adres email
+            </div>
+          <div class="label-input">
+            <input type="email" name="email" required />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="form-label">
+          <div class="label-description">
+            Hasło
+          </div>
+          <div class="label-input">
+            <input type="password" name="password" required />
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+
+        <button name="login-submit" class="submit-button" type="submit">Zaloguj</button>
+
+        <div class="clearfix"></div>
+      </form>
+    </div>
+  </body>
+</html>
